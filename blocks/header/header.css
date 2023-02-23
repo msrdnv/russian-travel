@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  column-gap: 18px;
+  min-width: 928px;
+  min-height: 52px;
+  margin: 28px 48px 48px;
+  border: 1px solid red;
+}
