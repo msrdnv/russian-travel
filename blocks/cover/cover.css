@@ -3,3 +3,27 @@
   max-width: 1024px;
   min-height: 640px;
 }
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    margin: 92px auto;
+    max-width: 1184px;
+    min-height: 740px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .cover {
+    margin: 90px 0 88px;
+    max-width: 768px;
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    margin: 66px 0 64px;
+    max-width: 320px;
+    min-height: 200px;
+  }
+}
