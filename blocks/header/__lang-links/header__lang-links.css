@@ -1,9 +1,25 @@
 .header__lang-links {
+  position: relative;
+  right: 96px;
   display: flex;
   flex-direction: row;
   column-gap: 18px;
-  align-items: end;
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .header__lang-links {
+    right: 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-links {
+    right: 32px;
+  }
+}
+
+
+
