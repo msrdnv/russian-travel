@@ -2,3 +2,24 @@
   max-width: 928px;
   margin: 0 auto 92px;
 }
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 984px;
+    margin: 0 auto 92px;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .lead {
+    max-width: 768px;
+    margin: 0 auto 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead {
+    max-width: 320px;
+    margin: 0 auto 64px;
+  }
+}

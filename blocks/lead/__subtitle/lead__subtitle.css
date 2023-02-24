@@ -5,6 +5,24 @@
   max-width: 640px;
   min-height: 72px;
   font-weight: 400;
-  font-size: 1.875rem;
+  font-size: 30px;
   line-height: 1.2;
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .lead__subtitle {
+    max-width: fit-content;
+    min-height: fit-content;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .lead__subtitle {
+    margin: 16px auto 40px;
+    max-width: 288px;
+    min-height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+  }
 }

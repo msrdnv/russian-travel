@@ -13,14 +13,18 @@
 @media screen and (min-width: 1280px) {
   .header {
     margin: 28px auto 56px;
+    left: 48px;
     max-width: 1184px;
+    min-height: 52px;
   }
 }
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
   .header {
+    margin: 28px auto 48px;
     left: 24px;
     max-width: 720px;
+    min-height: 52px;
   }
 }
 
