@@ -2,7 +2,23 @@
   margin: 0;
   padding: 0;
   color: #AAAAAA;
-  font-size: 0.75rem;
-  line-height: 1;
+  font-size: 12px;
+  line-height: 1.7;
   letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 768px) and (min-width: 425px) {
+  .place__website__url-heading {
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .place__website__url-heading {
+    font-size: 12px;
+    line-height: 1;
+    letter-spacing: 0.2em;
+  }
 }
