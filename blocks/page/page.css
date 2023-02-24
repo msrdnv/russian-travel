@@ -8,4 +8,8 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+  max-width: fit-content;
+  margin: auto;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
 }
