@@ -9,17 +9,13 @@
 @media screen and (max-width: 768px) and (min-width: 425px) {
   .place__paragraph {
     margin: 0 auto;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.63;
   }
 }
 
 @media screen and (max-width: 425px) {
   .place__paragraph {
     margin: 0 16px;
-    font-weight: 400;
     font-size: 16px;
-    line-height: 1.63;
   }
 }

@@ -10,7 +10,6 @@
 
 @media screen and (max-width: 768px) and (min-width: 425px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     row-gap: 32px;
   }
@@ -18,7 +17,6 @@
 
 @media screen and (max-width: 425px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     row-gap: 32px;
   }

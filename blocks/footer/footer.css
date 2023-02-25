@@ -9,17 +9,13 @@
 
 @media screen and (min-width: 1280px) {
   .footer {
-    margin: 0 auto 24px;
     max-width: 1184px;
-    min-height: 18px;
   }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
   .footer {
     margin: 0 48px 24px;
-    max-width: 928px;
-    min-height: 18px;
   }
 }
 
@@ -28,7 +24,6 @@
     margin: 0 16px 24px;
     max-width: 186px;
     min-height: 310px;
-    display: flex;
     flex-direction: column;
     row-gap: 48px;
   }
@@ -40,7 +35,6 @@
     margin: 0 16px 24px;
     max-width: 186px;
     min-height: 310px;
-    display: flex;
     flex-direction: column;
     row-gap: 48px;
   }

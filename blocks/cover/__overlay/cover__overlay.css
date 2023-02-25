@@ -13,7 +13,6 @@
   .cover__overlay {
     max-width: 1184px;
     min-height: 740px;
-    row-gap: 32px;
   }
 }
 
@@ -21,7 +20,6 @@
   .cover__overlay {
     max-width: 768px;
     min-height: 480px;
-    row-gap: 32px;
   }
 }
 
