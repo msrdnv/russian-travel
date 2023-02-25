@@ -9,6 +9,14 @@
   line-height: 1.04;
 }
 
+@media screen and (max-width: 767px) and (min-width: 425px) {
+  .lead__title {
+    max-width: min-content;
+    min-height: fit-content;
+    font-size: 60px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .lead__title {
     max-width: 288px;

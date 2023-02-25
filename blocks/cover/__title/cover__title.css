@@ -9,6 +9,13 @@
   text-align: center;
 }
 
+@media screen and (max-width: 767px) and (min-width: 425px) {
+  .cover__title {
+    font-size: 54px;
+    min-height: fit-content;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .cover__title {
     max-width: 288px;

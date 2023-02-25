@@ -2,5 +2,11 @@
   grid-area: paragraphs;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  row-gap: 27px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place__paragraphs {
+    row-gap: 25px;
+  }
 }
