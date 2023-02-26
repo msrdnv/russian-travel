@@ -5,7 +5,7 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 1.06;
-  width: min-content;
+  max-width: min-content;
 }
 
 @media screen and (max-width: 1023px) and (min-width: 425px) {
@@ -20,6 +20,6 @@
     margin: 0 16px;
     font-size: 32px;
     line-height: 1.09;
-    width: fit-content;
+    max-width: fit-content;
   }
 }
